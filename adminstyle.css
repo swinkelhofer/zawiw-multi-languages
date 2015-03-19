@@ -1,0 +1,9 @@
+.success {
+	padding: 10px;
+	background-color: #005500;
+	margin-top: 20px;
+	text-align: center;
+	/*display: inline-block;*/
+	color: white;
+	font-weight: bold;
+}

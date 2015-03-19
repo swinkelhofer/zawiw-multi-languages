@@ -1,0 +1,39 @@
+.language {
+	float: right;
+	margin-top: 8px;
+	font-size: 100%;
+	border: 1px solid #eee;
+}
+
+.language a {
+	padding: 10px;
+}
+
+.language ul {
+	display: none;
+	z-index: 100;
+	position: absolute;
+}
+
+.language ul li {
+	display: block !important;
+}
+
+.language ul li a {
+	padding-left: 10px !important;
+	display: block !important;
+}
+
+
+.language ul li:hover a  {
+	background: #eee !important;
+	color: #666 !important;
+}
+
+.language > a:hover {
+	color: #666 !important;
+}
+
+.language:hover > ul {
+	display: block;
+}
